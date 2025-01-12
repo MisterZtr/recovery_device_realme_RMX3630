@@ -1,0 +1,66 @@
+<!--
+    Input:
+        compatibility_matrix.xml
+-->
+<compatibility-matrix version="4.0" type="device">
+    <hal format="hidl" optional="false">
+        <name>android.frameworks.sensorservice</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hidl.allocator</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hidl.manager</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hidl.memory</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.hidl.token</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.system.wifi.keystore</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.cryptoeng</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICryptoeng</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.cryptoeng</name>
+        <interface>
+            <name>ICryptoeng</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.cryptoeng</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICryptoeng</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.cryptoeng</name>
+        <interface>
+            <name>ICryptoeng</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <vendor-ndk>
+        <version>31</version>
+    </vendor-ndk>
+    <system-sdk>
+        <version>31</version>
+    </system-sdk>
+</compatibility-matrix>
