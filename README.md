@@ -17,7 +17,8 @@ Display | 6.4-inch, 1080*2400 FHD+ Resolution; 90Hz Refresh Rate; AMOLED
 
 ## Device picture
 
-![1](https://vk.com/doc217116777_687773970?hash=1rgYAexVRtisqcbW0ov72DwW7ZzjzM95fcUCjAzNHjs&dl=ZSLPzP03quzzt33ipMv5piSk3Ho7Li8tyFzbRQBYUkX&api=1&no_preview=1)
+
+![realme10](https://github.com/user-attachments/assets/e360f76a-4845-4cde-8d13-3d26a1cd7fbd)
 
 
 ## Features
