@@ -10,12 +10,16 @@ system         /system         ext4  ro wait,slotselect,avb=vbmeta_system,logica
 system         /system         erofs ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
 vendor         /vendor         ext4  ro wait,slotselect,avb,logical,first_stage_mount
 vendor         /vendor         erofs ro wait,slotselect,avb,logical,first_stage_mount
+vendor_dlkm    /vendor_dlkm    ext4  ro wait,slotselect,avb,logical,first_stage_mount
+vendor_dlkm    /vendor_dlkm    erofs ro wait,slotselect,avb,logical,first_stage_mount
 product        /product        ext4  ro wait,slotselect,avb,logical,first_stage_mount
 product        /product        erofs ro wait,slotselect,avb,logical,first_stage_mount
 system_ext     /system_ext     ext4  ro wait,slotselect,avb,logical,first_stage_mount
 system_ext     /system_ext     erofs ro wait,slotselect,avb,logical,first_stage_mount
 odm            /odm            ext4  ro wait,logical,slotselect,first_stage_mount,nofail
 odm            /odm            erofs ro wait,slotselect,logical,first_stage_mount,nofail
+odm_dlkm       /odm_dlkm       ext4  ro wait,logical,slotselect,first_stage_mount,nofail
+odm_dlkm       /odm_dlkm       erofs ro wait,slotselect,logical,first_stage_mount,nofail
 my_product     /my_product     ext4  ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
 my_product     /my_product     erofs ro wait,slotselect,logical,first_stage_mount,nofail
 my_engineering /my_engineering ext4  ro,barrier=1 wait,slotselect,logical,first_stage_mount,nofail
